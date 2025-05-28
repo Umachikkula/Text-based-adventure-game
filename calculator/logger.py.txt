@@ -1,0 +1,3 @@
+def log_operation(a, op, b, result):
+    with open("reports/operation_logs.txt", "a") as f:
+        f.write(f"{a} {op} {b} = {result}\n")
